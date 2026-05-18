@@ -19,9 +19,6 @@ fetch("https://jsonplaceholder.typicode.com/users")
   });
 
 
-
-
-
 // ==========================================
 // 2. API Task - Expensive Products
 // ==========================================
@@ -43,9 +40,6 @@ fetch("https://fakestoreapi.com/products")
   });
 
 
-
-
-
 // ==========================================
 // 3. Date Concept Task - Digital Clock
 // ==========================================
@@ -58,9 +52,6 @@ let seconds = currentTime.getSeconds();
 
 console.log("===== DIGITAL CLOCK =====");
 console.log(hours + " : " + minutes + " : " + seconds);
-
-
-
 
 
 // ==========================================
@@ -81,10 +72,6 @@ console.log("Trimmed Name :", cleanName);
 console.log("Uppercase Name :", upperName);
 console.log("Includes KUMAR :", checkName);
 
-
-
-
-
 // ==========================================
 // 5. Array Concept Task - Student Rank System
 // ==========================================
@@ -98,10 +85,3 @@ let topThree = sortedMarks.slice(0, 3);
 console.log("===== STUDENT RANK SYSTEM =====");
 console.log("Sorted Marks :", sortedMarks);
 console.log("Top 3 Marks :", topThree);
-
-
-
-
-// ==========================================
-// END
-// ==========================================
