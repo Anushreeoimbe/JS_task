@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOPSYY</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+
+  <div class="topBar">
+
+    <h1 class="logo">SHOPSYY 🛍️</h1>
+
+    <button id="darkBtn">
+      Dark Mode
+    </button>
+
+  </div>
+
+
+  <!-- SEARCH -->
+
+  <input type="text"
+  id="search"
+  placeholder="Search Products">
+
+
+  <!-- CATEGORY BUTTONS -->
+
+  <div class="buttons">
+
+    <button onclick="filterCategory('all')">
+      All
+    </button>
+
+    <button onclick="filterCategory('electronics')">
+      Electronics
+    </button>
+
+    <button onclick="filterCategory('jewelery')">
+      Jewelery
+    </button>
+
+    <button onclick="filterCategory(`men's clothing`)">
+      Men
+    </button>
+
+    <button onclick="filterCategory(`women's clothing`)">
+      Women
+    </button>
+
+  </div>
+
+
+  <!-- CART -->
+
+  <div class="cartBox">
+
+    <h2>
+      🛒 Cart:
+      <span id="cartCount">0</span>
+    </h2>
+
+    <h2>
+      Total:
+      $<span id="total">0</span>
+    </h2>
+
+  </div>
+
+
+  <!-- MESSAGE -->
+
+  <h2 id="message"></h2>
+
+
+  <!-- PRODUCTS -->
+
+  <div id="productContainer"></div>
+
+
+
+  <!-- MODAL -->
+
+  <div id="modal">
+
+    <div class="modalContent">
+
+      <span id="closeBtn">❌</span>
+
+      <img id="modalImg">
+
+      <h2 id="modalTitle"></h2>
+
+      <p id="modalDesc"></p>
+
+      <h3 id="modalPrice"></h3>
+
+    </div>
+
+  </div>
+
+
+  <!-- CHECKOUT -->
+
+  <div class="checkout">
+
+    <button class="checkoutBtn">
+      Proceed To Checkout
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
